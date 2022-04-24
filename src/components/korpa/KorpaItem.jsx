@@ -8,7 +8,7 @@ const KorpaItem = ({knjiga}) => {
        <Typography variant='p'>
            {knjiga.opis}
        </Typography>
-       <CardContent>Kolicina: {knjiga.brojPonavljanja}</CardContent>
+       <CardContent>Količina: {knjiga.brojPonavljanja}</CardContent>
   </Card>;
 };
 
